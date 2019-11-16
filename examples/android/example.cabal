@@ -1,0 +1,14 @@
+name:                hello
+version:             0.1.0.0
+license:             BSD3
+author:              nganhkhoa
+maintainer:          nganhkhoa
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable Hello
+  main-is:             Hello.hs
+  build-depends:       base >=4.8 && <4.9
+  hs-source-dirs:      app/src/main/eta/
+  default-language:    Haskell2010
